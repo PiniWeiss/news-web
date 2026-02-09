@@ -75,7 +75,7 @@ function renderFullArticle(art) {
     newsPage.innerHTML = `
         <h1>${art.title}</h1>
         <h3>${art.author}</h3>
-        <img src="${art.urlToImage || 'https://via.placeholder.com/600x400'}" style="width:100%">
+        <img src="${art.urlToImage || 'https://via.placeholder.com/600x400'}"">
         <p class="content">${art.content || 'No content available.'}</p>
     `;
     showView('article');
